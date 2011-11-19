@@ -1,6 +1,10 @@
 RewriteEngine on
 RewriteBase /public
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^192.168.201.80
+RewriteRule (.*) http://192.168.201.80/$1 [R=301,L]
 RewriteRule ^(.+[^/])/$ http://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^$ index.php [L,QSA]
 RewriteRule ^([a-zA-Z0-9_+-]+)$ index.php?controller=$1 [L,QSA]
 RewriteRule ^([a-zA-Z0-9_+-]+)/([a-zA-Z0-9_+-]+)$ index.php?controller=$1&action=$2 [L,QSA]
 RewriteRule ^([a-zA-Z0-9_+-]+)/([a-zA-Z0-9_+-]+)/([a-zA-Z0-9_+-]+)$ index.php?controller=$1&action=$2&id=$3 [L,QSA]
