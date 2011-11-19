@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pistilli // We Make Deals.</title>
+  <meta name="description" content="The Pistilli Realty group has built its group of New York rentals on quality customer service and family values.">
+  <meta name="keywords" content="rentals, condos, apartments">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css?1318465260" media="screen, print">
+<link rel="stylesheet" type="text/css" href="/stylesheets/blast.css?1318465260" media="screen, print">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js?1318465260"></script>
+<script type="text/javascript" src="/javascripts/jquery.tablesorter.min.js?1318465260"></script>
+<script type="text/javascript" src="/javascripts/jquery.svg.js?1318465260"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;1318465260"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript">    
+    $(function() {
+      $.tablesorter.defaults.widgets = ['zebra']; 
+      $("#list").tablesorter(); 
+      $("h1").svg();
+      $("h1").svg('get').load('/images/logo.svg');
+      $(".amt span").svg();
+      $("dt span").svg();
+      $("#elevator").svg('get').load('/images/blast/elevator.svg');
+      $("#laundry").svg('get').load('/images/blast/laundry.svg');
+      $("#parking").svg('get').load('/images/blast/parking.svg');
+      $("#no_dogs_allowed").svg('get').load('/images/blast/no_dogs_allowed.svg');
+      $("#cats").svg('get').load('/images/blast/cat.svg');
+      $("#elevator_1").svg('get').load('/images/blast/elevator.svg');
+      $("#laundry_1").svg('get').load('/images/blast/laundry.svg');
+      $("#parking_1").svg('get').load('/images/blast/parking.svg');
+      $("#elevator_25").svg('get').load('/images/blast/elevator.svg');
+      $("#laundry_25").svg('get').load('/images/blast/laundry.svg');
+      $("#parking_25").svg('get').load('/images/blast/parking.svg');
+    });
+  </script>
+</head>
+<body>
+  <div id="top">
+    <div class="container">
+      <header>
+        <h1 style="background: none; text-indent: 0;"></h1>
+        <h2>Listings</h2>
+        <h3 class="week">Week of 10/11/11</h3>
+        <p><img src="/images/blast/attention.png" alt="!">There will be a brokers fee of $100.00 Per Apt.  The brokers fee must be paid in cash!</p>
+      </header>
+      <section id="results">
+        <div id="res">
+          <table id="list" class="tabA tablesorter">
+            <thead>
+              <tr>
+                <th class="loc">Location</th>
+                <th class="addr">Address</th>
+                <th class="amt">Amenities</th>
+                <th class="floor">Floor</th>
+                <th class="apt">Apt</th>
+                <th class="size">Size</th>
+                <th class="price">Price</th>
+                <th class="status2">Status</th>
+                <th class="status1">Work Status</th>
+                <th class="super">Super Info</th>
+              </tr>
+            </thead>
+            <tbody>
+                          <tr class="odd" onclick="javascript:window.location='/listings/1'">
+                <td class="loc">Astoria</td>
+                <td class="addr">22-05 37th Street</td>
+                <td class="amt">
+                  <span id="elevator_1"></span><span id="laundry_1"></span><span id="parking_1"></span>                </td>
+                <td class="floor">1</td>
+                <td class="apt">1E</td>
+                <td class="size">4</td>
+                <td class="price">$0</td>
+                <td class="status2">Application</td>
+                <td class="status1">Working Now</td>
+                <td class="super">Tony - 555-555-4444</td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/25'">
+                <td class="loc">Astoria</td>
+                <td class="addr">22-05 37th Street</td>
+                <td class="amt">
+                  <span id="elevator_25"></span><span id="laundry_25"></span><span id="parking_25"></span>                </td>
+                <td class="floor">12</td>
+                <td class="apt">1</td>
+                <td class="size">1</td>
+                <td class="price">$1</td>
+                <td class="status2">Application</td>
+                <td class="status1">Working Now</td>
+                <td class="super">Tony - 555-555-4444</td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/2'">
+                <td class="loc">Astoria</td>
+                <td class="addr">22-06 38th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2H</td>
+                <td class="size">3</td>
+                <td class="price">$1,475</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/3'">
+                <td class="loc">Astoria</td>
+                <td class="addr">25-90 35th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">3</td>
+                <td class="apt">3G</td>
+                <td class="size">3</td>
+                <td class="price">$1,800</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/4'">
+                <td class="loc">Astoria</td>
+                <td class="addr">30-86 32nd Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">4</td>
+                <td class="apt">36</td>
+                <td class="size">5</td>
+                <td class="price">$2,200</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/5'">
+                <td class="loc">Corona</td>
+                <td class="addr">58-35 Granger Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2N</td>
+                <td class="size">3</td>
+                <td class="price">$1,300</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/6'">
+                <td class="loc">Corona</td>
+                <td class="addr">58-35 Granger Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">6</td>
+                <td class="apt">6D</td>
+                <td class="size">3</td>
+                <td class="price">$1,400</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/8'">
+                <td class="loc">Corona</td>
+                <td class="addr">58-35 Granger Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">6</td>
+                <td class="apt">6M</td>
+                <td class="size">1</td>
+                <td class="price">$1,025</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/9'">
+                <td class="loc">Flushing</td>
+                <td class="addr">38-15 Bowne Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">1</td>
+                <td class="apt">1D</td>
+                <td class="size">2</td>
+                <td class="price">$1,247</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/10'">
+                <td class="loc">Flushing</td>
+                <td class="addr">38-15 Bowne Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">5</td>
+                <td class="apt">5D</td>
+                <td class="size">2</td>
+                <td class="price">$1,200</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/11'">
+                <td class="loc">Flushing</td>
+                <td class="addr">140-37 Ash Avenue</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">6</td>
+                <td class="apt">605</td>
+                <td class="size">2</td>
+                <td class="price">$975</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/12'">
+                <td class="loc">Jamaica</td>
+                <td class="addr">109-15 Merrick Boulevard</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">6</td>
+                <td class="apt">6J</td>
+                <td class="size">4</td>
+                <td class="price">$1,543</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/13'">
+                <td class="loc">Jamaica</td>
+                <td class="addr">109-15 Merrick Boulevard</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">6</td>
+                <td class="apt">6B</td>
+                <td class="size">1</td>
+                <td class="price">$950</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/14'">
+                <td class="loc">Jamaica</td>
+                <td class="addr">109-25 Merrick Boulevard</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">1</td>
+                <td class="apt">1C</td>
+                <td class="size">4</td>
+                <td class="price">$1,543</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/15'">
+                <td class="loc">Jamaica</td>
+                <td class="addr">109-25 Merrick Boulevard</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2C</td>
+                <td class="size">4</td>
+                <td class="price">$1,543</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/16'">
+                <td class="loc">Jamaica</td>
+                <td class="addr">109-25 Merrick Boulevard</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">1</td>
+                <td class="apt">1G</td>
+                <td class="size">3</td>
+                <td class="price">$1,243</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/17'">
+                <td class="loc">Astoria</td>
+                <td class="addr">19-19 24th Avenue</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">R203</td>
+                <td class="size">4</td>
+                <td class="price">$2,850</td>
+                <td class="status2">Application</td>
+                <td class="status1">Working Now</td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/18'">
+                <td class="loc">Woodside</td>
+                <td class="addr">47-30 59th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">3</td>
+                <td class="apt">3G</td>
+                <td class="size">3</td>
+                <td class="price">$1,600</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/19'">
+                <td class="loc">Woodside</td>
+                <td class="addr">47-30 59th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">9</td>
+                <td class="apt">9H</td>
+                <td class="size">4</td>
+                <td class="price">$1,950</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/20'">
+                <td class="loc">Greenpoint</td>
+                <td class="addr">184 Franklin Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">0</td>
+                <td class="apt">D5</td>
+                <td class="size">3</td>
+                <td class="price">$1,600</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/21'">
+                <td class="loc">Bronx</td>
+                <td class="addr">655 Pelham Parkway North</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2J</td>
+                <td class="size">4</td>
+                <td class="price">$1,600</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/22'">
+                <td class="loc">Astoria</td>
+                <td class="addr">26-80 30th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2J</td>
+                <td class="size">2</td>
+                <td class="price">$1,455</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="odd" onclick="javascript:window.location='/listings/23'">
+                <td class="loc">Astoria</td>
+                <td class="addr">34-20 32nd Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">2</td>
+                <td class="apt">2H</td>
+                <td class="size">2</td>
+                <td class="price">$1,100</td>
+                <td class="status2"></td>
+                <td class="status1"></td>
+                <td class="super"></td>
+              </tr>
+                          <tr class="even" onclick="javascript:window.location='/listings/24'">
+                <td class="loc">Greenwich Village</td>
+                <td class="addr">268 West 12th Street</td>
+                <td class="amt">
+                                  </td>
+                <td class="floor">3</td>
+                <td class="apt">3R</td>
+                <td class="size">4</td>
+                <td class="price">$3,300</td>
+                <td class="status2">Application</td>
+                <td class="status1">Not Ready</td>
+                <td class="super"></td>
+              </tr>
+                        </tbody>
+          </table>
+          <div style="padding: 2px 0 0; border-bottom: 1px solid #d0d0d0; overflow: hidden;">
+            <h3 class="legend left">Legend:</h3>
+            <dl>
+              <dt><span id="elevator"></span></dt>
+              <dd>Elevator</dd>
+            
+              <dt><span id="laundry"></span></dt>
+              <dd>Laundry</dd>
+            
+              <dt><span id="parking"></span></dt>
+              <dd>Parking</dd>
+            </dl>
+          </div>
+          <dl style="padding: 2px 0 0; border-bottom: 1px solid #d0d0d0; overflow: hidden">
+            <dt class="clear"><span id="no_dogs_allowed"></span></dt>
+            <dd style="padding: 9px 10px 0 3px;">No Dogs Allowed</dd>
+            <dt><span id="cats"></span></dt>
+            <dd style="padding: 9px 3px 0;">Cats Are Allowed</dd>
+          </dl>
+        </div>
+      </section>
+      <footer>
+        <a href="http://www.empirestudios.net/" title="Empire Studios" id="empire">Powered By: Empire Studios</a> 
+        <p style="font-weight: bold;">Pistilli Realty Group reserves the right to change any information WITHOUT notice.</p>
+        <p style="padding: 7px 0;">Copyright &copy; 2011 Pistilli Realty Group. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

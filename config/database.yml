@@ -1,0 +1,6 @@
+main:
+  socket:   mysql
+  database: aww
+  username: root
+  password: root
+  host:     localhost
